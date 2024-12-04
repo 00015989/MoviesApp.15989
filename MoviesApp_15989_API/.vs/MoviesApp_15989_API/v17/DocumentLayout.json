@@ -58,8 +58,7 @@
               "RelativeToolTip": "MoviesApp_15989_API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:42:47.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T12:42:47.688Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "MoviesApp_15989_API\\DTOs\\MovieDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:32:50.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T12:32:50.728Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "MoviesApp_15989_API\\DTOs\\GenreDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:32:01.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T12:32:01.388Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "MoviesApp_15989_API\\Models\\Genre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:31:37.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T12:31:37.252Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "MoviesApp_15989_API\\Models\\Movie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:30:38.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T12:30:38.793Z"
             },
             {
               "$type": "Document",
@@ -123,8 +118,7 @@
               "RelativeToolTip": "MoviesApp_15989_API\\Controllers\\GenresController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:34:45.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T12:34:45.341Z"
             },
             {
               "$type": "Document",
@@ -134,7 +128,7 @@
               "RelativeDocumentMoniker": "MoviesApp_15989_API\\Controllers\\MoviesController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\MoviesApp.15989\\MoviesApp_15989_API\\MoviesApp_15989_API\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "MoviesApp_15989_API\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T12:36:14.608Z",
               "EditorCaption": ""
@@ -149,8 +143,7 @@
               "RelativeToolTip": "MoviesApp_15989_API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-04T12:42:50.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T12:42:50.602Z"
             },
             {
               "$type": "Document",

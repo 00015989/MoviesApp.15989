@@ -502,3 +502,4 @@ C:\Users\user\Desktop\MoviesApp.15989\MoviesApp_15989_API\MoviesApp_15989_API\ob
 C:\Users\user\Desktop\MoviesApp.15989\MoviesApp_15989_API\MoviesApp_15989_API\obj\Debug\net8.0\MoviesApp_15989_API.pdb
 C:\Users\user\Desktop\MoviesApp.15989\MoviesApp_15989_API\MoviesApp_15989_API\obj\Debug\net8.0\MoviesApp_15989_API.genruntimeconfig.cache
 C:\Users\user\Desktop\MoviesApp.15989\MoviesApp_15989_API\MoviesApp_15989_API\obj\Debug\net8.0\ref\MoviesApp_15989_API.dll
+C:\Users\user\Desktop\MoviesApp.15989\MoviesApp_15989_API\MoviesApp_15989_API\obj\Debug\net8.0\MoviesApp_15989_API.sourcelink.json
