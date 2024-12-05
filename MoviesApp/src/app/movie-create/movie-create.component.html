@@ -1,0 +1,38 @@
+<form (ngSubmit)="createMovie()">
+  <label for="title">Title</label>
+  <input
+    type="text"
+    id="title"
+    (ngModel)="(newMovie.title)"
+    name="title"
+    required
+  />
+
+  <label for="description">Description</label>
+  <input
+    type="text"
+    id="description"
+    (ngModel)="(newMovie.description)"
+    name="description"
+  />
+
+  <label for="releaseDate">Release Date</label>
+  <input
+    type="date"
+    id="releaseDate"
+    (ngModel)="(newMovie.releaseDate)"
+    name="releaseDate"
+    required
+  />
+
+  <label for="rating">Rating</label>
+  <input
+    type="number"
+    id="rating"
+    (ngModel)="(newMovie.rating)"
+    name="rating"
+    required
+  />
+
+  <button type="submit">Create Movie</button>
+</form>

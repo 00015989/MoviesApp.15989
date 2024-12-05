@@ -1,0 +1,95 @@
+/* Style for Create Movie Form */
+.create-movie-form {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.create-movie-form input,
+.create-movie-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.create-movie-form button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create-movie-form button:hover {
+  background-color: #2980b9;
+}
+
+/* Style for Add Movie Button */
+.add-movie-btn {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.add-movie-btn:hover {
+  background-color: #27ae60;
+}
+
+/* Style for Movie Cards */
+.movie-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card-header {
+  margin-bottom: 10px;
+}
+
+.movie-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.movie-details {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.delete-button,
+.edit-button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover,
+.edit-button:hover {
+  background-color: #c0392b;
+}
+
+.edit-button {
+  background-color: #f39c12;
+}
+
+.edit-button:hover {
+  background-color: #e67e22;
+}

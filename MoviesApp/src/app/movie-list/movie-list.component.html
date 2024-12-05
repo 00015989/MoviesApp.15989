@@ -1,0 +1,25 @@
+<div class="container">
+  <h1 class="page-title">Movie List</h1>
+  <div class="movie-list">
+    <div *ngFor="let movie of movies" class="movie-card">
+      <div class="movie-card-header">
+        <h2 class="movie-title">{{ movie.title }}</h2>
+        <p class="movie-details">
+          <strong>Genre:</strong> {{ movie.genreName }}
+        </p>
+        <p class="movie-details"><strong>Rating:</strong> {{ movie.rating }}</p>
+      </div>
+      <div class="movie-details">
+        <p>
+          <strong>Release Date:</strong>
+          {{ movie.releaseDate | date : "longDate" }}
+        </p>
+        <p><strong>Director:</strong> {{ movie.director }}</p>
+        <p><strong>Description:</strong> {{ movie.description }}</p>
+      </div>
+      <button (click)="deleteMovie(movie.movieID)" class="delete-button">
+        Delete
+      </button>
+    </div>
+  </div>
+</div>
