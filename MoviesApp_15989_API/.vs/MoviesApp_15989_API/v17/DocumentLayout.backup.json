@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MoviesApp.15989\\MoviesApp_15989_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|c:\\users\\user\\desktop\\moviesapp.15989\\moviesapp_15989_api\\moviesapp_15989_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|solutionrelative:moviesapp_15989_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|c:\\users\\user\\desktop\\moviesapp.15989\\moviesapp_15989_api\\moviesapp_15989_api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|solutionrelative:moviesapp_15989_api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|c:\\users\\user\\desktop\\moviesapp.15989\\moviesapp_15989_api\\moviesapp_15989_api\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|solutionrelative:moviesapp_15989_api\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|c:\\users\\user\\desktop\\moviesapp.15989\\moviesapp_15989_api\\moviesapp_15989_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|solutionrelative:moviesapp_15989_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|c:\\users\\user\\desktop\\moviesapp.15989\\moviesapp_15989_api\\moviesapp_15989_api\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|c:\\users\\user\\desktop\\moviesapp.15989\\moviesapp_15989_api\\moviesapp_15989_api\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|solutionrelative:moviesapp_15989_api\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|c:\\users\\user\\desktop\\moviesapp.15989\\moviesapp_15989_api\\moviesapp_15989_api\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|solutionrelative:moviesapp_15989_api\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{500C5302-4B52-4754-9E28-8C92AEFEF4A0}|MoviesApp_15989_API\\MoviesApp_15989_API.csproj|c:\\users\\user\\desktop\\moviesapp.15989\\moviesapp_15989_api\\moviesapp_15989_api\\dtos\\genredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MoviesApp.15989\\MoviesApp_15989_API\\MoviesApp_15989_API\\Program.cs",
               "RelativeDocumentMoniker": "MoviesApp_15989_API\\Program.cs",
@@ -58,12 +58,11 @@
               "RelativeToolTip": "MoviesApp_15989_API\\Program.cs",
               "ViewState": "AgIAACUAAAAAAAAAAADwvz0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:42:47.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T12:42:47.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MovieDTO.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MoviesApp.15989\\MoviesApp_15989_API\\MoviesApp_15989_API\\DTOs\\MovieDTO.cs",
               "RelativeDocumentMoniker": "MoviesApp_15989_API\\DTOs\\MovieDTO.cs",
@@ -87,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Genre.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MoviesApp.15989\\MoviesApp_15989_API\\MoviesApp_15989_API\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "MoviesApp_15989_API\\Models\\Genre.cs",
@@ -99,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MoviesApp.15989\\MoviesApp_15989_API\\MoviesApp_15989_API\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "MoviesApp_15989_API\\Models\\Movie.cs",
@@ -111,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GenresController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MoviesApp.15989\\MoviesApp_15989_API\\MoviesApp_15989_API\\Controllers\\GenresController.cs",
               "RelativeDocumentMoniker": "MoviesApp_15989_API\\Controllers\\GenresController.cs",
@@ -123,15 +122,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MoviesController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MoviesApp.15989\\MoviesApp_15989_API\\MoviesApp_15989_API\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "MoviesApp_15989_API\\Controllers\\MoviesController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\MoviesApp.15989\\MoviesApp_15989_API\\MoviesApp_15989_API\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "MoviesApp_15989_API\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:36:14.608Z"
+              "WhenOpened": "2024-12-04T12:36:14.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
