@@ -1,38 +1,42 @@
-<form (ngSubmit)="createMovie()">
-  <label for="title">Title</label>
-  <input
-    type="text"
-    id="title"
-    (ngModel)="(newMovie.title)"
-    name="title"
-    required
-  />
-
-  <label for="description">Description</label>
-  <input
-    type="text"
-    id="description"
-    (ngModel)="(newMovie.description)"
-    name="description"
-  />
-
-  <label for="releaseDate">Release Date</label>
-  <input
-    type="date"
-    id="releaseDate"
-    (ngModel)="(newMovie.releaseDate)"
-    name="releaseDate"
-    required
-  />
-
-  <label for="rating">Rating</label>
-  <input
-    type="number"
-    id="rating"
-    (ngModel)="(newMovie.rating)"
-    name="rating"
-    required
-  />
-
-  <button type="submit">Create Movie</button>
+<form (ngSubmit)="createMovie()" #movieForm="ngForm">
+  <div>
+    <label for="title">Title:</label>
+    <input id="title" name="title" [(ngModel)]="movie.title" required />
+  </div>
+  <div>
+    <label for="genre">Genre:</label>
+    <input id="genre" name="genre" [(ngModel)="movie.genreID" required />
+  </div>
+  <div>
+    <label for="releaseDate">Release Date:</label>
+    <input
+      id="releaseDate"
+      name="releaseDate"
+      [(ngModel)]="movie.releaseDate"
+      required
+    />
+  </div>
+  <div>
+    <label for="director">Director:</label>
+    <input
+      id="director"
+      name="director"
+      [(ngModel)]="movie.director"
+      required
+    />
+  </div>
+  <div>
+    <label for="rating">Rating:</label>
+    <input id="rating" name="rating" [(ngModel)]="movie.rating" required />
+  </div>
+  <div>
+    <label for="description">Description:</label>
+    <textarea
+      id="description"
+      name="description"
+      [(ngModel)]="movie.description"
+      required
+    ></textarea>
+  </div>
+  <button type="submit" [disabled]="!movieForm.valid">Create Movie</button>
 </form>

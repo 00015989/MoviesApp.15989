@@ -5,6 +5,6 @@ import { routes } from './app.routes';
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(routes), // Add routing here
+    provideRouter(routes),
   ],
 };

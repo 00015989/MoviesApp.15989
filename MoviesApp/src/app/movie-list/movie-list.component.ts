@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { MovieService } from '../movie.service';
 import { Movie } from '../movie.models';
-import { CommonModule } from '@angular/common'; // Import CommonModule
-import { DatePipe } from '@angular/common'; // Import DatePipe for the date pipe
+import { CommonModule } from '@angular/common';
+import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-movie-list',
   templateUrl: './movie-list.component.html',
   styleUrls: ['./movie-list.component.css'],
-  imports: [CommonModule], // Ensure CommonModule is included here for *ngFor
-  providers: [DatePipe], // Provide DatePipe to use the date pipe
+  imports: [CommonModule],
+  providers: [DatePipe],
 })
 export class MovieListComponent implements OnInit {
   movies: Movie[] = [];

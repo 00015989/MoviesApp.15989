@@ -1,21 +1,25 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
-import { MovieService } from '../movie.service';
-import { Movie } from '../movie.models';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-movie-create',
   templateUrl: './movie-create.component.html',
   styleUrls: ['./movie-create.component.css'],
+  standalone: true,
+  imports: [CommonModule, FormsModule],
 })
 export class MovieCreateComponent {
-  newMovie: Movie = { title: '', description: '', releaseDate: '', rating: 0 };
+  movie = {
+    title: '',
+    genre: '',
+    releaseDate: '',
+    director: '',
+    rating: '',
+    description: '',
+  };
 
-  constructor(private movieService: MovieService, private router: Router) {}
-
-  createMovie(): void {
-    this.movieService.createMovie(this.newMovie).subscribe(() => {
-      this.router.navigate(['/']);
-    });
+  createMovie() {
+    console.log('Movie Created:', this.movie);
   }
 }
